@@ -30,12 +30,16 @@ public class UserInputFormater {
             switch (userInputArray[1]) {
                 case "плюс":
                     System.out.println((int)firstNum+secondNum);
+		    break;
                 case "минус":
                     System.out.println((int)firstNum-secondNum);
+		    break;
                 case "делить":
                     System.out.println(firstNum/secondNum);
+		    break;
                 case "умножить":
                     System.out.println(firstNum*secondNum);
+		    break;
                 default:
                     System.err.println(errorMessage + "\n");
                     subMain();
